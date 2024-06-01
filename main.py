@@ -9,7 +9,7 @@ load_dotenv()  # This loads the environment variables from .env
 api_key = "pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI"
 base_url = "https://tiles.api.mappable.world/v1/tiles/"
 lang = "en_US"
-lat, lon = 41.025658, 28.974155  # Galata Tower coordinates
+lat, lon = 25.19745, 55.27417  # Galata Tower coordinates
 z = 16
 l = "map"
 
