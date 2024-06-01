@@ -14,14 +14,14 @@ specific tiles based on geographical coordinates.
 - Logging
 - Draft SQLite db
 
-## Installation
-Clone this repository and navigate into the project directory:
-```bash
-git clone https://github.com/romargera/mppbl.git
-
 ## Backlog
 * Logging Restructure: Upgrade the current logging system to a more versatile and dynamic structure using Python's 
 logging module.
 * Database Revision with User Data: Expand the database schema to incorporate a new user authentication system 
 including encryption for data security.
 * Async Requests: Implement asynchronous request handling in the web framework to improve concurrency and performance.
+
+## Installation
+Clone this repository and navigate into the project directory:
+```bash
+git clone https://github.com/romargera/mppbl.git
