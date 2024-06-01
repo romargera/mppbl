@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from src.api.tile_api import get_tile
+
 
 class TestTileAPI(unittest.TestCase):
     @patch('src.api.tile_api.requests.get')
