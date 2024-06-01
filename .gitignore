@@ -1,2 +1,5 @@
 # .gitignore additional entry
-logs/
+*.log  # Ignore all log files
+*.db   # Ignore database files
+logs/  # Ignore the whole logs directory
+api_requests.db  # Specifically ignore the database file

@@ -3,7 +3,6 @@ import sqlite3
 from sqlite3 import Error
 
 def create_connection():
-    """ Create a database connection to a SQLite database """
     conn = None
     try:
         conn = sqlite3.connect('api_requests.db')
@@ -12,7 +11,6 @@ def create_connection():
     return conn
 
 def create_table(conn):
-    """ Create table if not exists """
     try:
         c = conn.cursor()
         c.execute("""
@@ -31,10 +29,8 @@ def create_table(conn):
         print(e)
 
 def insert_api_request(conn, request, lat, lon, x, y, full_url):
-    """ Insert a new api_request into the api_requests table """
     sql = ''' INSERT INTO api_requests(request, lat, lon, x, y, full_url)
               VALUES(?,?,?,?,?,?) '''
     cur = conn.cursor()
     cur.execute(sql, (request, lat, lon, x, y, full_url))
     conn.commit()
-    return cur.lastrowid

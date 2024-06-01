@@ -1,0 +1,33 @@
+2024-06-01 16:26:20,281:INFO:Request URL: https://tiles.api.mappable.world/v1/tiles/?apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI&x=38042&y=24564&z=16 - Status Code: 400
+2024-06-01 16:26:20,281:ERROR:Failed to retrieve tile.
+2024-06-01 16:27:58,504:ERROR:Failed to retrieve tile. Status Code: 400, Response: "l" is required
+2024-06-01 16:27:58,504:ERROR:Failed to retrieve tile.
+2024-06-01 16:31:30,295:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=38042&y=24564&z=16&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 16:31:30,296:INFO:Tile retrieved successfully.
+2024-06-01 16:31:30,296:INFO:Tile retrieved successfully.
+2024-06-01 16:46:50,425:INFO:Tile retrieved successfully for (41.025658, 28.974155) at zoom level 16. URL: https://tiles.api.mappable.world/v1/tiles/?x=5274&y=8203&z=16&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI
+2024-06-01 16:46:50,426:INFO:Tile retrieved successfully.
+2024-06-01 16:52:50,429:INFO:Tile retrieved successfully for (41.025658, 28.974155) at zoom level 16. URL: https://tiles.api.mappable.world/v1/tiles/?x=5274&y=8203&z=16&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI
+2024-06-01 16:52:50,430:INFO:Tile retrieved successfully.
+2024-06-01 16:59:19,176:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=594&y=383&z=10&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 16:59:19,177:INFO:Tile retrieved successfully.
+2024-06-01 16:59:23,416:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=594&y=383&z=10&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 16:59:23,416:INFO:Tile retrieved successfully.
+2024-06-01 17:03:08,946:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=19299&y=24629&z=16&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:03:08,947:INFO:Tile retrieved successfully.
+2024-06-01 17:04:12,442:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=2412&y=3078&z=13&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:04:12,443:INFO:Tile retrieved successfully.
+2024-06-01 17:06:33,130:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=301&y=384&z=10&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:06:33,131:INFO:Tile retrieved successfully.
+2024-06-01 17:06:56,775:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=19299&y=24629&z=16&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:06:56,776:INFO:Tile retrieved successfully.
+2024-06-01 17:07:22,579:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=19299&y=24629&z=16&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:07:22,580:INFO:Tile retrieved successfully.
+2024-06-01 17:08:08,378:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=9649&y=12314&z=15&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:08:08,379:INFO:Tile retrieved successfully.
+2024-06-01 17:12:25,339:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=9649&y=12314&z=15&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:12:25,341:INFO:Tile retrieved successfully.
+2024-06-01 17:15:08,831:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=16581&y=11320&z=15&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:15:08,832:INFO:Tile retrieved successfully.
+2024-06-01 17:15:37,734:INFO:Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=4145&y=2830&z=13&lang=en_US&l=map&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 17:15:37,734:INFO:Tile retrieved successfully.

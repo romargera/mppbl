@@ -6,7 +6,7 @@ import os
 load_dotenv()  # This loads the environment variables from .env
 
 # Set up the endpoint and required parameters
-api_key = os.getenv("api_key")
+api_key = "pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI"
 base_url = "https://tiles.api.mappable.world/v1/tiles/"
 lang = "en_US"
 lat, lon = 41.025658, 28.974155  # Galata Tower coordinates
