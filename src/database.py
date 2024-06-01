@@ -1,36 +1,47 @@
-# src/database.py
 import sqlite3
-from sqlite3 import Error
+import logging
 
 def create_connection():
-    conn = None
     try:
-        conn = sqlite3.connect('api_requests.db')
-    except Error as e:
-        print(e)
-    return conn
+        conn = sqlite3.connect('tiles.db')
+        logging.info("Connection to SQLite DB successful")
+        return conn
+    except sqlite3.Error as e:
+        logging.error(f"Error '{e}' occurred while connecting to SQLite DB")
+        return None
 
 def create_table(conn):
-    try:
-        c = conn.cursor()
-        c.execute("""
-            CREATE TABLE IF NOT EXISTS api_requests (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                date_time DATETIME DEFAULT CURRENT_TIMESTAMP,
-                request TEXT,
-                lat REAL,
-                lon REAL,
-                x INTEGER,
-                y INTEGER,
-                full_url TEXT
-            );
-        """)
-    except Error as e:
-        print(e)
+    if conn is not None:
+        create_table_sql = '''
+        CREATE TABLE IF NOT EXISTS tiles (
+            tile_number INTEGER PRIMARY KEY AUTOINCREMENT,
+            response_text TEXT,
+            lat REAL,
+            lon REAL,
+            x_tile INTEGER,
+            y_tile INTEGER,
+            url TEXT,
+            status_code INTEGER
+        );
+        '''
+        try:
+            cur = conn.cursor()
+            cur.execute(create_table_sql)
+            conn.commit()
+            logging.info("SQLite table created successfully")
+        except sqlite3.Error as e:
+            logging.error(f"Error '{e}' occurred while creating the table")
 
-def insert_api_request(conn, request, lat, lon, x, y, full_url):
-    sql = ''' INSERT INTO api_requests(request, lat, lon, x, y, full_url)
-              VALUES(?,?,?,?,?,?) '''
-    cur = conn.cursor()
-    cur.execute(sql, (request, lat, lon, x, y, full_url))
-    conn.commit()
+def insert_api_request(conn, response_text, lat, lon, x, y, url, status_code):
+    if conn is not None:
+        sql = '''
+        INSERT INTO tiles (response_text, lat, lon, x_tile, y_tile, url, status_code)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+        '''
+        try:
+            cur = conn.cursor()
+            cur.execute(sql, (response_text, lat, lon, x, y, url, status_code))
+            conn.commit()
+            logging.info("API request logged successfully")
+        except sqlite3.Error as e:
+            logging.error(f"Error '{e}' occurred while inserting into the table")

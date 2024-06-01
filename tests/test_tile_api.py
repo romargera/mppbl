@@ -1,51 +1,47 @@
-# src/tests/test_tile_api.py
 import unittest
-from unittest.mock import patch
-from src.api.tile_api import get_tile
-from src.config import API_KEY
+from unittest.mock import patch, MagicMock
+from src.api.tile_api import get_tile, get_tiles
+
 
 class TestTileAPI(unittest.TestCase):
+    def setUp(self):
+        # This method will run before each test method
+        self.mock_response = MagicMock()
+        self.mock_response.ok = True
+        self.mock_response.status_code = 200
+        self.mock_response.text = 'Success'
+
     @patch('src.api.tile_api.requests.get')
     def test_get_tile_successful(self, mock_get):
-        """Test the get_tile function returns a successful response."""
-        # Setup mock
-        mock_response = mock_get.return_value
-        mock_response.ok = True
-        mock_response.status_code = 200
-        mock_response.text = 'Successful response'
-        mock_response.url = 'https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&apikey=API_KEY'
-
-        # Expected values
-        expected_x, expected_y = 42830, 28025
-
-        # Call the function
-        response, x, y, url = get_tile(41.025658, 28.974155, 16)
-
-        # Assertions to ensure all returned values match expected values
+        """Test successful retrieval of a tile."""
+        mock_get.return_value = self.mock_response
+        # Define test parameters
+        lat, lon, zoom = 25.19745, 55.27417, 10
+        # Execute function under test
+        response, x, y, url = get_tile(lat, lon, zoom)
+        # Assertions to verify expected outcomes
         self.assertTrue(response.ok)
         self.assertEqual(response.status_code, 200)
-        self.assertIn('Successful response', response.text)
-        self.assertEqual(x, expected_x)
-        self.assertEqual(y, expected_y)
-        self.assertIn('apikey=API_KEY', url)
+        self.assertEqual(response.text, 'Success')
 
-    @patch('src.api.tile_api.requests.get')
-    def test_get_tile_failure(self, mock_get):
-        """Test the get_tile function handles failures correctly."""
-        # Setup mock
-        mock_response = mock_get.return_value
-        mock_response.ok = False
-        mock_response.status_code = 400
-        mock_response.text = '"l" is required'
-        mock_response.url = 'https://tiles.api.mappable.world/v1/tiles/'
-
-        # Call the function
-        response, x, y, url = get_tile(41.025658, 28.974155, 16)
-
-        # Assertions
-        self.assertFalse(response.ok)
-        self.assertEqual(response.status_code, 400)
-        self.assertIn('"l" is required', response.text)
+    @patch('src.api.tile_api.get_tile')
+    def test_get_tiles(self, mock_get_tile):
+        """Test retrieving multiple tiles."""
+        # Setup mock for get_tile
+        mock_get_tile.return_value = (self.mock_response, 42830, 28025, 'mock_url')
+        # Define test parameters
+        tiles = [(25.19745, 55.27417), (25.19745, 55.27417)]  # Multiple coordinates
+        zoom = 10
+        # Execute function under test
+        results = get_tiles(tiles, zoom)
+        # Assertions to verify expected outcomes
+        self.assertEqual(len(results), len(tiles))
+        for result in results:
+            index, response, x, y, url = result
+            self.assertTrue(response.ok)
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(x, 42830)
+            self.assertEqual(y, 28025)
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,60 @@
+2024-06-01 22:22:59,159 - INFO - Connection to SQLite DB successful
+2024-06-01 22:22:59,159 - INFO - SQLite table created successfully
+2024-06-01 22:23:25,295 - INFO - Connection to SQLite DB successful
+2024-06-01 22:23:25,296 - INFO - SQLite table created successfully
+2024-06-01 22:23:47,664 - INFO - Connection to SQLite DB successful
+2024-06-01 22:23:47,665 - INFO - SQLite table created successfully
+2024-06-01 22:24:46,482 - INFO - Connection to SQLite DB successful
+2024-06-01 22:24:46,484 - INFO - SQLite table created successfully
+2024-06-01 22:24:47,199 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:24:47,199 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:24:47,199 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:24:47,269 - INFO - API request logged successfully
+2024-06-01 22:29:15,241 - INFO - Connection to SQLite DB successful
+2024-06-01 22:29:15,242 - INFO - SQLite table created successfully
+2024-06-01 22:29:15,882 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:29:15,883 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:29:15,883 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:29:15,960 - INFO - API request logged successfully
+2024-06-01 22:29:33,624 - INFO - Connection to SQLite DB successful
+2024-06-01 22:29:33,625 - INFO - SQLite table created successfully
+2024-06-01 22:29:33,958 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:29:33,958 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:29:33,958 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:29:34,031 - INFO - API request logged successfully
+2024-06-01 22:30:59,132 - INFO - Connection to SQLite DB successful
+2024-06-01 22:30:59,133 - INFO - SQLite table created successfully
+2024-06-01 22:30:59,736 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:30:59,736 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:30:59,736 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:30:59,813 - INFO - API request logged successfully
+2024-06-01 22:33:08,291 - INFO - Connection to SQLite DB successful
+2024-06-01 22:33:08,292 - INFO - SQLite table created successfully
+2024-06-01 22:33:08,692 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:33:08,692 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:33:08,692 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:33:08,762 - INFO - API request logged successfully
+2024-06-01 22:33:12,735 - INFO - Connection to SQLite DB successful
+2024-06-01 22:33:12,735 - INFO - SQLite table created successfully
+2024-06-01 22:33:13,277 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:33:13,278 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:33:13,278 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:33:13,343 - INFO - API request logged successfully
+2024-06-01 22:41:39,542 - INFO - Connection to SQLite DB successful
+2024-06-01 22:41:39,543 - INFO - SQLite table created successfully
+2024-06-01 22:41:40,250 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:41:40,251 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:41:40,251 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:41:40,327 - INFO - API request logged successfully
+2024-06-01 22:42:40,202 - INFO - Connection to SQLite DB successful
+2024-06-01 22:42:40,203 - INFO - SQLite table created successfully
+2024-06-01 22:42:40,896 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:42:40,897 - INFO - Tile number 1: x=42830, y=28025, url=https://tiles.api.mappable.world/v1/tiles/?x=42830&y=28025&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:42:40,897 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:42:40,971 - INFO - API request logged successfully
+2024-06-01 22:44:50,878 - INFO - Connection to SQLite DB successful
+2024-06-01 22:44:50,880 - INFO - SQLite table created successfully
+2024-06-01 22:44:51,532 - INFO - Requested URL: https://tiles.api.mappable.world/v1/tiles/?x=33185&y=22545&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI - Status Code: 200
+2024-06-01 22:44:51,533 - INFO - Tile number 1: x=33185, y=22545, url=https://tiles.api.mappable.world/v1/tiles/?x=33185&y=22545&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
+2024-06-01 22:44:51,533 - INFO - Tile 1 retrieved successfully.
+2024-06-01 22:44:51,605 - INFO - API request logged successfully

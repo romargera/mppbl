@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-# lat, lon, zoom = 48.858653170975046, 2.294514165895997, 12  # sample data  (Paris)
-lat, lon, zoom = 25.19745, 55.27417, 16 # sample data (Dubai)
+lat, lon, zoom = 48.858653170975046, 2.294514165895997, 16  # sample data  (Paris)
+# lat, lon, zoom = 25.19745, 55.27417, 16 # sample data (Dubai)
 scale = 1.5
 projection = "web_mercator"
 l = "map"

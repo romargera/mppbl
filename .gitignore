@@ -2,4 +2,5 @@
 *.log  # Ignore all log files
 *.db   # Ignore database files
 logs/  # Ignore the whole logs directory
-api_requests.db  # Specifically ignore the database file
+tiles.db  # Specifically ignore the database file
+app.log  # Specifically ignore the logs file
