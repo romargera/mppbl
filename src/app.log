@@ -58,3 +58,9 @@
 2024-06-01 22:44:51,533 - INFO - Tile number 1: x=33185, y=22545, url=https://tiles.api.mappable.world/v1/tiles/?x=33185&y=22545&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI, status=200
 2024-06-01 22:44:51,533 - INFO - Tile 1 retrieved successfully.
 2024-06-01 22:44:51,605 - INFO - API request logged successfully
+2024-06-01 23:04:17,680 - INFO - Connection to SQLite DB successful
+2024-06-01 23:04:17,681 - INFO - SQLite table created successfully
+2024-06-01 23:05:27,949 - INFO - Connection to SQLite DB successful
+2024-06-01 23:05:27,950 - INFO - SQLite table created successfully
+2024-06-01 23:06:53,464 - INFO - Connection to SQLite DB successful
+2024-06-01 23:06:53,465 - INFO - SQLite table created successfully

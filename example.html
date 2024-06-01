@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beautiful Grid of Pictures</title>
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+    grid-gap: 10px; /* Space between the pictures */
+    width: 500px; /* Total width of the grid */
+    margin: auto; /* Center the grid horizontally */
+  }
+  .grid-item {
+    width: 100%; /* Full width of the column */
+    height: 240px; /* Height of the pictures */
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+</head>
+<body>
+<div class="grid-container">
+  <div class="grid-item" style="background-image: url(https://tiles.api.mappable.world/v1/tiles/?x=33184&y=22544&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI);"></div>
+  <div class="grid-item" style="background-image: url(https://tiles.api.mappable.world/v1/tiles/?x=33185&y=22544&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI);"></div>
+  <div class="grid-item" style="background-image: url(https://tiles.api.mappable.world/v1/tiles/?x=33184&y=22545&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI);"></div>
+  <div class="grid-item" style="background-image: url(https://tiles.api.mappable.world/v1/tiles/?x=33185&y=22545&z=16&lang=en_US&l=map&scale=1.5&projection=web_mercator&apikey=pk_HscyPxtvwqSDTBHcVSqFXyNJiDWdAZGXoMoLplgudnsXdZDrTzfiNBFobcCSjruI);"></div>
+</div>
+</body>
+</html>
